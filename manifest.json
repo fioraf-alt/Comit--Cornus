@@ -1,0 +1,10 @@
+{
+  "name": "Comité Cornus – Prise de commande du bar",
+  "short_name": "Comité Cornus",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f4f5",
+  "theme_color": "#ffffff",
+  "lang": "fr"
+}

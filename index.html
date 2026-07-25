@@ -1,32 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comité Cornus</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-    <h1>🚜 Comité Cornus</h1>
-    <p>Prise de commande du bar</p>
-</header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Comité Cornus">
 
-<main>
+  <title>Comité Cornus — Bar</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="logo" aria-hidden="true">🚜</div>
+
+      <div>
+        <h1>Comité Cornus</h1>
+        <p>Prise de commande du bar</p>
+      </div>
+    </header>
 
     <div id="products"></div>
 
-    <div id="total">
-        TOTAL :
-        <span id="price">0,00 €</span>
-    </div>
+    <section class="summary">
+      <h2>Commande</h2>
+      <div id="order" class="empty">Aucun article pour le moment.</div>
+    </section>
+  </main>
 
-    <button id="reset">
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="total-wrap">
+        <div class="total-label">TOTAL</div>
+        <div id="total" class="total">0,00 €</div>
+      </div>
+
+      <button id="undo" class="action undo" type="button" disabled>
+        ↩ Annuler
+      </button>
+
+      <button id="reset" class="action reset" type="button">
         Nouvelle commande
-    </button>
+      </button>
+    </div>
+  </footer>
 
-</main>
-    <script src="products.js"></script>
-    <script src="app.js"></script>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
