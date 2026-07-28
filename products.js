@@ -18,7 +18,7 @@ const PRODUCT_GROUPS = [
       { name: "Jacqueline", price: 2 },
       { name: "Carafe Jacqueline", price: 15 },
       { name: "Kir", price: 1.5 },
-      { name: "Muscat", price: 1.5 }
+      { name: "Muscat", price: 1.5 },
       { name: "GET Perrier", price: 3 }
       
 
@@ -36,7 +36,7 @@ const PRODUCT_GROUPS = [
     className: "other",
     items: [
       { name: "Caution verre / carafe", price: 1 },
-      { name: "Verre de vin", price: 1.5 }
+      { name: "Verre de vin", price: 1.5 },
       { name: "Café", price: 1 },
       { name: "Eau", price: 1 }
     ]
