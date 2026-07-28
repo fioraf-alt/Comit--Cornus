@@ -6,9 +6,10 @@
   --border: #dedee3;
 
   --beer: #cfe9d6;
-  --cocktail: #f7d4e4;
-  --soft: #f8edb7;
-  --other: #cfe4f6;
+ --cocktail: #f6d1a8;
+--wine: #e9c2c2;
+--soft: #f8edb7;
+--other: #cfe4f6;
 
   --danger: #b91c1c;
 }
@@ -100,6 +101,9 @@ h1 {
 
 .cocktail {
   background: var(--cocktail);
+}
+.wine {
+  background: var(--wine);
 }
 
 .soft {
@@ -252,4 +256,12 @@ h1 {
   .action {
     width: 100%;
   }
+}
+.logo-comite {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: white;
 }

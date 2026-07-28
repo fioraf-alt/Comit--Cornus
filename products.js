@@ -1,6 +1,6 @@
 const PRODUCT_GROUPS = [
   {
-    title: "BIÈRES",
+    title: "🍺 BIÈRES",
     className: "beer",
     items: [
       { name: "Bière", price: 2 },
@@ -10,35 +10,39 @@ const PRODUCT_GROUPS = [
     ]
   },
   {
-    title: "COCKTAILS",
+    title: "🍹 COCKTAILS",
     className: "cocktail",
     items: [
       { name: "Cocktail fruité", price: 2 },
       { name: "Carafe cocktail fruité", price: 15 },
       { name: "Jacqueline", price: 2 },
       { name: "Carafe Jacqueline", price: 15 },
-      { name: "Kir", price: 1.5 },
-      { name: "Muscat", price: 1.5 },
-      { name: "GET Perrier", price: 3 }
-      
-
+      { name: "Get Perrier", price: 3 }
     ]
   },
   {
-    title: "SOFTS",
+  title: "🍷 VINS",
+  className: "wine",
+  items: [
+    { name: "Kir", price: 1.5 },
+    { name: "Muscat", price: 1.5 },
+    { name: "Verre de vin", price: 1.5 }
+  ]
+},
+  {
+    title: "🥤 SOFTS",
     className: "soft",
     items: [
-      { name: "Soft", price: 2 }
+      { name: "Soft", price: 2 },
+      { name: "Eau", price: 1 },
+      { name: "Café", price: 1 }
     ]
   },
   {
-    title: "AUTRES",
+    title: "🎟️ CAUTION",
     className: "other",
     items: [
-      { name: "Caution verre / carafe", price: 1 },
-      { name: "Verre de vin", price: 1.5 },
-      { name: "Café", price: 1 },
-      { name: "Eau", price: 1 }
+      { name: "Caution verre / carafe", price: 1 }
     ]
   }
 ];
